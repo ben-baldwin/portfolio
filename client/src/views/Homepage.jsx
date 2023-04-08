@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Skill from '../components/Skill'
 import Project from '../components/Project'
-import background from '../assets/background.jpg'
 
 const Homepage = () => {
 
