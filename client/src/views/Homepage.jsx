@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Skill from '../components/Skill'
 import Project from '../components/Project'
+import background from '../assets/background.jpg'
 
 const Homepage = () => {
 
@@ -12,7 +13,7 @@ const Homepage = () => {
     databases: ['Mongo', 'MySQL', 'Mongoose'],
     aws: ['AWS', 'EC2', 'S3 Bucket', 'Cloud Front', 'Route 53', 'SSL', 'Deployment'],
     tools: ['Git', 'GitHub'],
-    gis: ['JOSM', 'Esri', 'QGIS', 'AutoCAD', 'delete me'],
+    gis: ['JOSM', 'Esri', 'QGIS', 'AutoCAD'],
   }
 
   return (
