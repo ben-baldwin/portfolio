@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Skill = (mySkillsArray) => {
+const Skill = ({skill}) => {
   return (
-      <div className='border rounded-lg'>{mySkillsArray.skill}</div>
+    <div className='border rounded-lg'>{skill}</div>
   )
 }
 

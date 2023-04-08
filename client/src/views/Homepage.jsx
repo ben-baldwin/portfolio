@@ -5,15 +5,13 @@ import Project from '../components/Project'
 
 const Homepage = () => {
 
-  const mySkillsArray = {
-    languages: ['JavaScript', 'Java', 'Python', 'HTML5', 'CSS', 'SQL'],
-    frontEnd: ['React', 'JSX', 'Jinja2', 'Bootstrap', 'Tailwind'],
-    backEnd: ['Flask', 'Spring Boot', 'Django', 'Express'],
-    databases: ['Mongo', 'MySQL', 'Mongoose'],
-    aws: ['AWS', 'EC2', 'S3 Bucket', 'Cloud Front', 'Route 53', 'SSL', 'Deployment'],
-    tools: ['Git', 'GitHub'],
-    gis: ['JOSM', 'Esri', 'QGIS', 'AutoCAD'],
-  }
+  const languages = ['JavaScript', 'Java', 'Python', 'HTML5', 'CSS', 'SQL']
+  const frontEnd = ['React', 'JSX', 'Jinja2', 'Bootstrap', 'Tailwind']
+  const backEnd = ['Flask', 'Spring Boot', 'Django', 'Express']
+  const databases = ['Mongo', 'MySQL', 'Mongoose']
+  const aws = ['AWS', 'EC2', 'S3 Bucket', 'Cloud Front', 'Route 53', 'SSL', 'Deployment']
+  const tools = ['Git', 'GitHub']
+  const gis = ['JOSM', 'Esri', 'QGIS', 'AutoCAD']
 
   return (
     <main className='bg-cover bg-center min-h-screen' id='background'>
@@ -39,9 +37,10 @@ const Homepage = () => {
         </div>
         <div className='flex justify-center gap-4 grid-flow-col p-2'>
           {
-            mySkillsArray.map((skill, i) =>
-              <Skill skill={skill} />
-            )}
+            languages.concat(frontEnd, backEnd, databases, aws, tools, gis).map((skill, i) => {
+              return <Skill skill={skill} />
+            })
+          }
         </div>
       </section>
       <section className='flex justify-center mt-8 gap-8'>
