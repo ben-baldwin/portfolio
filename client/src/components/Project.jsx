@@ -1,15 +1,19 @@
 import React from 'react'
 
-const Project = () => {
+const Project = ({ name, projectDescription, appLink, appImage, appRepo }) => {
   return (
     <div className='bg-white p-2 rounded-lg'>
-      <img src="#" alt="project" />
-      <p>App Name</p>
+      <img className='w-32 h-32' src={appImage} alt={name} />
+      <p>{name}</p>
       <p>skill 1 | skill 2 | skill 3</p>
-      <p>Very top level project description. Not too much detail.</p>
+      <p>{projectDescription}</p>
       <div className='flex'>
-        <button>View</button>
-        <button>Github repo</button>
+        <a href={appLink} target='_blank'>
+          <button>View</button>
+        </a>
+        <a href={appRepo} target='_blank'>
+          <button>Github repo</button>
+        </a>
       </div>
     </div>
   )
