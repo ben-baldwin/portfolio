@@ -3,7 +3,7 @@ import React from 'react'
 const Project = ({ name, projectDescription, appLink, appImage, appRepo, skills }) => {
   return (
     <div className='bg-slate-100 p-6 rounded-xl'>
-      <p className='text-xl font-bold my-2'>{name}</p>
+      <p className='text-xl font-bold mb-4'>{name}</p>
         <img className='shadow-xl rounded-lg' src={appImage} alt={name} />
       <p className='bg-slate-300 text-lg rounded-lg text-center mt-4 p-1'>{skills}</p>
       <p className='text-lg'>{projectDescription}</p>
