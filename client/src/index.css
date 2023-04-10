@@ -8,7 +8,11 @@ body {
   font-family: Montserrat;
 }
 
-#background {
-  background-image: url('../src/assets/background.jpg');
+#navBackground {
+  background-image: url('../src/assets/background.svg');
   background-size: cover;
+}
+
+#nav {
+ opacity: 91%;
 }
