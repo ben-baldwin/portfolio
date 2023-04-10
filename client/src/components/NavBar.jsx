@@ -11,11 +11,11 @@ const NavBar = () => {
         <a href="#">Resume</a>
         <a href="#">contact</a>
       </div>
-      <div className='text-cyan-800'>
-        <a className='px-2' href="https://www.linkedin.com/in/ben-baldwin55/">
+      <div className='space-x-4 text-cyan-800'>
+        <a className='' target='_blank' href="https://www.linkedin.com/in/ben-baldwin55/">
           <FontAwesomeIcon size='2x' icon={faLinkedin} />
         </a>
-        <a href="https://github.com/ben-baldwin">
+        <a target='_blank' href="https://github.com/ben-baldwin">
           <FontAwesomeIcon size='2x' icon={faGithub} />
         </a>
       </div>

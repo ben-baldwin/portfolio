@@ -18,21 +18,21 @@ const Homepage = () => {
     <main className='bg-cover bg-center min-h-screen'>
       <NavBar />
       <body>
-        <section className='max-w-screen-xl mx-auto'>
+        <section className='max-w-screen-xl mx-auto mt-8'>
           {/* Hero */}
-          <div className='flex justify-between'>
-            <img className=' h-96 w-96 object-cover object-center' src="/meCutout.png" alt="Head shot" />
-            <div className='flex flex-col justify-end p-8 bg-white rounded-lg self-end'>
+          <div className='flex justify-between gap-12'>
+            <img className=' h-5/12 w-5/12 object-cover shadow-lg rounded-xl' src="/coloredSquare.png" alt="Head shot" />
+            <div className='flex flex-col justify-end bg-slate-100 rounded-xl self-end p-4'>
               <h1 className='text-6xl font-bold mb-4'>Hi, I'm Ben and I'm a full stack Web Developer.</h1>
-              <p className='text-xl'>I'm a Junior Developer based in Seattle, Washington. I am a recent graduate from Coding Dojo where I studied full stack web development. I am actively looking for work!</p>
-              <div className='space-x-4'>
+              <p className='text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate full stack web developer based in Seattle, Washington. With a strong foundation in full stack web development, I'm always looking for new opportunities to grow my skillset. I'm a recent graduate from Coding Dojo, where I gained hands-on experience in building dynamic web applications using languages such as JavaScript, Python, Java, and more. I believe that great software should be both functional and aesthetically pleasing, and I strive to create user-friendly interfaces with clean and maintainable code. I'm excited to continue my journey as a developer and am actively seeking opportunities to collaborate with other like-minded professionals in the industry.</p>
+              <div className='space-x-4 mt-4'>
                 <button className='rounded text-lg border-2 px-6 py-2 font-medium hover:bg-gray-100 active:bg-gray-200 focus:outline-none focus:ring focus:ring-gray-300'>Contact Me</button>
-                <button className='rounded text-lg border-2 px-6 py-2 font-medium hover:bg-gray-100 active:bg-gray-200 focus:outline-none focus:ring focus:ring-gray-300'>Check my work</button>
+                <button className='rounded text-lg border-2 px-6 py-2 font-medium hover:bg-gray-100 active:bg-gray-200 focus:outline-none focus:ring focus:ring-gray-300'>View my work</button>
               </div>
             </div>
           </div>
           {/* Work */}
-          <div className='mt-16 bg-white p-6 rounded-lg'>
+          <div className='mt-16 bg-slate-100 p-6 rounded-xl'>
             <p className='text-5xl font-bold mb-4'>Projects and Skills</p>
             <p className='text-xl'>Checkout my personal projects!</p>
             <p className='text-xl'>If you have any questions feel free to ask me for more information.</p>
@@ -47,16 +47,24 @@ const Homepage = () => {
           </div>
         </section>
         {/* Projects */}
-        <section className='mt-8 max-w-screen-xl mx-auto p-8'>
+        <section className='mt-8 max-w-screen-xl mx-auto'>
           <Project
             name={'Ecommerce App'}
-            projectDescription={'An AWS deployed fullstack MERN Drumming Ecommerce App featuring admin login/reg, multer, and Stripe'}
+            projectDescription={'An AWS deployed fullstack MERN Drumming Ecommerce App featuring admin login/reg, multer, and Stripe.'}
             appLink={'https://www.percussionpro.store'}
             appImage={viewOne16x9} 
             appRepo={'https://github.com/ben-baldwin/DrumEcommerce'}
             skills={'JavaScript | React | AWS | Mongo | GitHub | Node | Stripe | Multer | JSX | Tailwind | Express'}
           />
-          <Project />
+          <Project 
+          name={'Airline Reservation App'}
+          projectDescription={'An AWS deployed fullstack Java Airline Reservation System App featuring admin and user login/reg and Stripe.'}
+          appLink={'#'}
+          appImage={viewOne16x9}
+          appRepo={'https://github.com/jordanruhle/Airline-Reservation-System'}
+          skills={'Java | Bootstrap | Spring Boot | Java | AWS | GitHub | Stripe'}
+          />
+          
         </section>
       </body>
     </main>
