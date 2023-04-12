@@ -47,7 +47,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* Projects */}
-        <section className='mt-8 max-w-screen-xl mx-auto'>
+        <section className='mt-8 max-w-screen-xl mx-auto space-y-14'>
           <Project
             name={'Ecommerce App'}
             projectDescription={'An AWS deployed fullstack MERN Drumming Ecommerce App featuring admin login/reg, multer, and Stripe.'}
