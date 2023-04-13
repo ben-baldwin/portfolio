@@ -20,21 +20,25 @@ const Homepage = () => {
       <body>
         <section className='max-w-screen-xl mx-auto mt-8'>
           {/* Hero */}
-          <div className='flex justify-between gap-12'>
+          <div className='flex flex-col sm:flex-row justify-between gap-12'>
             <img className=' h-5/12 w-5/12 object-cover shadow-lg rounded-xl' src="/coloredSquare.png" alt="Head shot" />
-            <div className='flex flex-col justify-end bg-slate-100 rounded-xl self-end p-4'>
+            <div className='flex flex-col justify-end bg-zinc-700 shadow-lg rounded-xl self-end p-4'>
               <h1 className='text-6xl font-bold mb-4'>Hi, I'm Ben and I'm a full stack Web Developer.</h1>
-              <p className='text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate full stack web developer based in Seattle, Washington. With a strong foundation in full stack web development, I'm always looking for new opportunities to grow my skillset. I'm a recent graduate from Coding Dojo, where I gained hands-on experience in building dynamic web applications using languages such as JavaScript, Python, Java, and more. I believe that great software should be both functional and aesthetically pleasing, and I strive to create user-friendly interfaces with clean and maintainable code. I'm excited to continue my journey as a developer and am actively seeking opportunities to collaborate with other like-minded professionals in the industry.</p>
-              <div className='space-x-4 mt-4'>
-                <button className='rounded text-lg border-2 px-6 py-2 font-medium hover:bg-gray-100 active:bg-gray-200 focus:outline-none focus:ring focus:ring-gray-300'>Contact Me</button>
-                <button className='rounded text-lg border-2 px-6 py-2 font-medium hover:bg-gray-100 active:bg-gray-200 focus:outline-none focus:ring focus:ring-gray-300'>View my work</button>
+              <p className='text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate full stack web developer based in Seattle, Washington. 
+              With a strong foundation in full stack web development, I'm always looking for new opportunities to grow my skillset. 
+              I'm a recent graduate from Coding Dojo, where I gained hands-on experience in building dynamic web applications using languages such as JavaScript, Python, Java, and more. 
+              I believe that great software should be both functional and aesthetically pleasing, and I strive to create user-friendly interfaces with clean code. 
+              I am actively seeking employment opportunities.</p>
+              <div className='space-x-4 mt-4 flex'>
+                <button className='rounded text-lg flex-grow border-2 px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>Contact Me</button>
+                <button className='rounded text-lg flex-grow border-2 px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>View my work</button>
               </div>
             </div>
           </div>
           {/* Work */}
-          <div className='mt-16 bg-slate-100 p-6 rounded-xl'>
+          <div className='mt-16 bg-zinc-700 shadow-lg p-6 rounded-xl'>
             <p className='text-5xl font-bold mb-4'>Skills and Projects</p>
-            <p className='text-xl mb-2'>Below is a list of skills I have acquired and am continuously improving upon and adding to.</p>
+            <p className='text-xl mb-2'>Below is a list of skills I have acquired and am continuously improving upon.</p>
             {/* Skills */}
             <div>
               {
