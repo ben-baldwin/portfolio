@@ -8,10 +8,10 @@ body {
   font-family: Montserrat;
 }
 
-#navBackground {
+/* #navBackground {
   background-image: url('../src/assets/background.svg');
   background-size: cover;
-}
+} */
 
 /* #nav {
  opacity: 91%;
