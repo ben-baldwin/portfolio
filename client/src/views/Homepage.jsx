@@ -33,9 +33,8 @@ const Homepage = () => {
           </div>
           {/* Work */}
           <div className='mt-16 bg-slate-100 p-6 rounded-xl'>
-            <p className='text-5xl font-bold mb-4'>Projects and Skills</p>
-            <p className='text-xl'>Checkout my personal projects!</p>
-            <p className='text-xl'>If you have any questions feel free to ask me for more information.</p>
+            <p className='text-5xl font-bold mb-4'>Skills and Projects</p>
+            <p className='text-xl mb-2'>Below is a list of skills I have acquired and am continuously improving upon and adding to.</p>
             {/* Skills */}
             <div>
               {
@@ -47,24 +46,24 @@ const Homepage = () => {
           </div>
         </section>
         {/* Projects */}
-        <section className='mt-8 max-w-screen-xl mx-auto space-y-14'>
+        <section className='mt-16 max-w-screen-xl mx-auto space-y-14'>
           <Project
             name={'Ecommerce App'}
             projectDescription={'An AWS deployed fullstack MERN Drumming Ecommerce App featuring admin login/reg, multer, and Stripe.'}
             appLink={'https://www.percussionpro.store'}
-            appImage={viewOne16x9} 
+            appImage={viewOne16x9}
             appRepo={'https://github.com/ben-baldwin/DrumEcommerce'}
             skills={'JavaScript | React | AWS | Mongo | GitHub | Node | Stripe | Multer | JSX | Tailwind | Express'}
           />
-          <Project 
-          name={'Airline Reservation App'}
-          projectDescription={'An AWS deployed fullstack Java Airline Reservation System App featuring admin and user login/reg and Stripe.'}
-          appLink={'#'}
-          appImage={viewOne16x9}
-          appRepo={'https://github.com/jordanruhle/Airline-Reservation-System'}
-          skills={'Java | Bootstrap | Spring Boot | Java | AWS | GitHub | Stripe'}
+          <Project
+            name={'Airline Reservation App'}
+            projectDescription={'An AWS deployed fullstack Java Airline Reservation System App featuring admin and user login/reg and Stripe.'}
+            appLink={'#'}
+            appImage={viewOne16x9}
+            appRepo={'https://github.com/jordanruhle/Airline-Reservation-System'}
+            skills={'Java | Bootstrap | Spring Boot | Java | AWS | GitHub | Stripe'}
           />
-          
+
         </section>
       </body>
     </main>
