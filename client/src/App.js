@@ -4,7 +4,7 @@ import Homepage from "./views/Homepage";
 
 function App() {
   return (
-    <div className="text-gray-700 bg-zinc-800">
+    <div className="text-cyan-100 bg-zinc-800">
       <Homepage />
     </div>
   );

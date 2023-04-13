@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skill = ({skill}) => {
   return (
-    <div className='bg-slate-300 text-lg rounded-lg inline-block m-1 p-1'>{skill}</div>
+    <div className='bg-gray-950 text-md rounded-lg inline-block m-1 p-2'>{skill}</div>
   )
 }
 
