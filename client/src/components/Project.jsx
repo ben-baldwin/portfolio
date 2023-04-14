@@ -4,7 +4,7 @@ const Project = ({ name, projectDescription, appLink, appImage, appRepo, skills 
   return (
     <div className='bg-zinc-700 shadow-lg p-6 rounded-xl'>
       <p className='text-2xl font-bold mb-4'>{name}</p>
-      <p className='text-lg font-bold mb-2'>{projectDescription}</p>
+      <p className='text-lg mb-2'>{projectDescription}</p>
         <img className='shadow-xl rounded-lg' src={appImage} alt={name} />
       <p className='bg-gray-950 text-lg rounded-lg text-center mt-4 p-1'>{skills}</p>
       <div className='flex space-x-4 mt-4'>
