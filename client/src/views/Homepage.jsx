@@ -22,19 +22,19 @@ const Homepage = () => {
         <body>
           <section className='max-w-screen-xl mx-auto mt-8'>
             {/* Hero */}
-            <div className='flex flex-col sm:flex-row justify-between gap-12'>
-              <img className=' h-5/12 w-5/12 object-cover shadow-lg rounded-xl' src="/coloredSquare.png" alt="Head shot" />
+            <div className='flex flex-col lg:flex-row justify-between gap-12'>
+              <img className='max-w-full w-auto h-auto object-cover md:max-w-md md:max-h-md shadow-lg rounded-xl' src="/coloredSquare.png" alt="Head shot" />
               <div className='flex flex-col justify-end bg-zinc-700 shadow-lg rounded-xl self-end p-4'>
                 <h1 className='text-6xl font-bold mb-4'>Hi, I'm Ben and I'm a full stack Software Developer.</h1>
-                <p className='text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate full stack web developer based in Seattle, Washington.
+                <p className='text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate Full Stack web developer based in Seattle, Washington.
                   With a strong foundation in full stack web development, I'm always looking for new opportunities to grow my skillset.
-                  I'm a recent graduate from Coding Dojo, where I gained hands-on experience in building dynamic web applications using languages such as JavaScript, Python, Java, and more.
+                  I'm a recent graduate from Coding Dojo, where I gained hands-on experience in building Full Stack web applications using languages such as JavaScript, Python, Java, and more.
                   I believe that great software should be both functional and aesthetically pleasing, and I strive to create user-friendly interfaces with clean code.
                   I am actively seeking employment opportunities.</p>
-                <div className='space-x-4 mt-4 flex'>
-                  <button className='rounded text-lg flex-grow border-2 px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>Contact Me</button>
-                  <button className='rounded text-lg flex-grow border-2 px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>View my work</button>
-                </div>
+                {/* <div className='space-x-4 mt-4 flex'> */}
+                  {/* <button className='rounded text-lg flex-grow border-2 px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800' >Contact Me</button>
+                  <button className='rounded text-lg flex-grow border-2 px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>View my work</button> */}
+                {/* </div> */}
               </div>
             </div>
             {/* Work */}
