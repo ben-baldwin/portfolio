@@ -2,7 +2,10 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Skill from '../components/Skill'
 import Project from '../components/Project'
+import Construction from '../components/Construction'
 import viewOne16x9 from '../assets/viewOne16x9.PNG'
+import pnwAirline16x9 from '../assets/pnwAirline16x9.png'
+import reactMap16x9 from '../assets/reactMap16x9.png'
 import Contact from '../components/Contact'
 
 const Homepage = () => {
@@ -64,10 +67,18 @@ const Homepage = () => {
             <Project
               name={'Airline Reservation App'}
               projectDescription={'An AWS deployed fullstack Java Airline Reservation System App featuring admin and user login/reg and Stripe.'}
-              appLink={'#'}
-              appImage={viewOne16x9}
+              appLink={'http://pnwairlines.flights'}
+              appImage={pnwAirline16x9}
               appRepo={'https://github.com/jordanruhle/Airline-Reservation-System'}
               skills={'Java | Bootstrap | Spring Boot | Java | AWS | GitHub | Stripe'}
+            />
+            <Construction
+            name={'COMING SOON: Map App'}
+            projectDescription={'An interactive React Map App using the Mapbox library and Open Street Maps data with map filters'}
+            appLink={'#'}
+            appImage={reactMap16x9}
+            appRepo={'#'}
+            skills={'JavaScript | React | AWS | GitHub | Mapbox'}
             />
           </section>
           <section className='max-w-screen-xl mx-auto'>
