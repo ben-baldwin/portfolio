@@ -12,9 +12,6 @@ const Construction = ({ name, projectDescription, appLink, appImage, appRepo, sk
       <img className='shadow-xl rounded-lg' src={appImage} alt={name} />
       <p className='bg-gray-950 text-lg rounded-lg text-center mt-4 p-1'>{skills}</p>
       <div className='flex space-x-4 mt-4'>
-        {/* <a className='flex-grow' href={appLink} target='_blank'>
-          <button className='rounded text-lg border-2 w-full px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>View</button>
-        </a> */}
         <a className='flex-grow' href={appRepo} target='_blank'>
           <button className='rounded text-lg border-2 w-full px-6 py-2 font-medium hover:bg-yellow-400 active:bg-black'>GitHub Repo</button>
         </a>
