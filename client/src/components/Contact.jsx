@@ -7,8 +7,7 @@ const Contact = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = () => {
 
     emailjs.sendForm(
       // should be env variable?
@@ -20,6 +19,7 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         console.log("message sent");
+        window.location.reload(); // Refresh the page after successful email send
       }, (error) => {
         console.log(error.text);
       });
