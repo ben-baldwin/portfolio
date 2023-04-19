@@ -26,7 +26,7 @@ const Homepage = () => {
     <body className='bg-cover bg-center min-h-screen'>
       <main>
         <NavBar />
-        <section className='max-w-screen-xl mx-auto mt-8 p-2'>
+        <section className='max-w-screen-xl mx-auto mt-8 px-2'>
           {/* Hero */}
           <div className='flex flex-col lg:flex-row justify-between gap-12'>
             <img className='max-w-full w-auto h-auto object-cover md:max-w-md md:max-h-md rounded-xl' src="/coloredSquare.png" alt="Head shot" />
@@ -55,7 +55,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* Projects */}
-        <section className='mt-16 max-w-screen-xl mx-auto space-y-14 p-2' id="work">
+        <section className='mt-16 max-w-screen-xl mx-auto space-y-14 px-2' id="work">
           <Project
             name={'Ecommerce App'}
             projectDescription={'An AWS deployed fullstack MERN Drumming Ecommerce App featuring admin login/reg, multer, and Stripe.'}
