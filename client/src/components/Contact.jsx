@@ -26,17 +26,9 @@ const Contact = () => {
   };
 
   return (
-    <div className='mt-16 bg-zinc-700 shadow-lg p-6 rounded-xl' id='contact'>
+    <div className=' bg-zinc-700 shadow-lg p-6 rounded-xl flex-grow' id='contact'>
       <div className='flex justify-between'>
         <p className='text-2xl font-bold mb-4'>Send me a message</p>
-        <div className='w-32 space-x-4 text-center'>
-          <a className='text-blue-600 hover:text-xl transition-all duration-200' target='_blank' href="https://www.linkedin.com/in/ben-baldwin55/">
-            <FontAwesomeIcon size='2x' icon={faLinkedin} />
-          </a>
-          <a className='text-lime-600 hover:text-xl transition-all duration-200' target='_blank' href="https://github.com/ben-baldwin">
-            <FontAwesomeIcon size='2x' icon={faGithub} />
-          </a>
-        </div>
       </div>
       <form ref={form} onSubmit={sendEmail}>
         <div className='space-y-4'>
