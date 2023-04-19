@@ -22,13 +22,6 @@ const Homepage = () => {
   const tools = ['Git', 'GitHub']
   const gis = ['JOSM', 'Esri', 'QGIS', 'AutoCAD']
 
-  // const resume = `${process.env.PUBLIC_URL}/BaldwinResume.pdf`;
-
-  // const handlePdfClick = (e) => {
-  //   e.preventDefault();
-  //   window.open(resume, '_blank');
-  // }
-
   return (
     <body className='bg-cover bg-center min-h-screen'>
       <main>
