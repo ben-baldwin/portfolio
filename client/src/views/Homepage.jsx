@@ -31,8 +31,8 @@ const Homepage = () => {
           <div className='flex flex-col lg:flex-row justify-between gap-12'>
             <img className='max-w-full w-auto h-auto object-cover md:max-w-md md:max-h-md rounded-xl' src="/coloredSquare.png" alt="Head shot" />
             <div className='flex flex-col justify-end bg-zinc-700 shadow-lg rounded-xl self-end p-4'>
-              <h1 className='text-6xl font-bold mb-4'>Hey, my name is Ben and I'm a full stack Software Developer.</h1>
-              <p className='text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate Full Stack web developer based in Seattle, Washington.
+              <h1 className='text-3xl md:text-5xl lg:text-6xl font-bold mb-4'>Hey, my name is Ben and I'm a full stack Software Developer.</h1>
+              <p className='text-lg md:text-xl p-2'>Welcome to my portfolio! I'm Ben, a passionate Full Stack web developer based in Seattle, Washington.
                 With a strong foundation in full stack web development, I'm always looking for new opportunities to grow my skillset.
                 I'm a recent graduate from Coding Dojo, where I gained hands-on experience in building Full Stack web applications using languages such as JavaScript, Python, Java, and more.
                 I believe that great software should be both functional and aesthetically pleasing, and I strive to create user-friendly interfaces with clean code.
@@ -42,7 +42,7 @@ const Homepage = () => {
           </div>
           {/* Work */}
           <div className='mt-16 bg-zinc-700 shadow-lg p-6 rounded-xl'>
-            <p className='text-5xl font-bold mb-4'>Skills and Projects</p>
+            <p className='text-3xl md:text-4xl font-bold mb-4'>Skills and Projects</p>
             <p className='text-xl mb-2'>Below is a list of skills I have acquired and am continuously improving upon.</p>
             {/* Skills */}
             <div>
