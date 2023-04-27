@@ -77,7 +77,7 @@ const Homepage = () => {
             projectDescription={'An interactive React Map App using the Mapbox library and Open Street Maps data with map filters'}
             appLink={'#'}
             appImage={reactMap16x9}
-            appRepo={'#'}
+            appRepo={'https://github.com/ben-baldwin/MapApp'}
             skills={'JavaScript | React | AWS | GitHub | Mapbox'}
           />
         </section>
