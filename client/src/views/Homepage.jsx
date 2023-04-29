@@ -67,7 +67,7 @@ const Homepage = () => {
           <Project
             name={'Airline Reservation App'}
             projectDescription={'An AWS deployed fullstack Java Airline Reservation System App featuring admin and user login/reg and Stripe.'}
-            appLink={'http://pnwairlines.flights'}
+            appLink={'https://pnwairlines.flights'}
             appImage={pnwAirline16x9}
             appRepo={'https://github.com/jordanruhle/Airline-Reservation-System'}
             skills={'Java | Bootstrap | Spring Boot | Java | AWS | GitHub | Stripe'}
