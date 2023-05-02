@@ -12,7 +12,7 @@ const Project = ({ name, projectDescription, appLink, appImage, appRepo, skills 
           <button className='rounded text-lg border-2 w-full px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>View</button>
         </a>
         <a className='flex-grow' href={appRepo} target='_blank'>
-          <button className='rounded text-lg border-2 w-full px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>GitHub Repo</button>
+          <button className='rounded text-lg border-2 w-full px-6 py-2 font-medium hover:bg-cyan-800 active:bg-gray-800'>Source Code</button>
         </a>
       </div>
     </div>
