@@ -73,11 +73,11 @@ const Homepage = () => {
             skills={'Java | Bootstrap | Spring Boot | Java | AWS | GitHub | Stripe'}
           />
           <Construction
-            name={'COMING SOON: Map App'}
-            projectDescription={'An interactive React Map App using the Mapbox library and Open Street Maps data with map filters'}
+            name={'COMING SOON: Map App, Camp Finder'}
+            projectDescription={'A userfriendly app to locate your next camping adventure! This app utilizes Mapbox GL JS, OSM geoJSON data, Mapboxes geocoding api for quick address queries, and Mapboxes navigation API to render turn by turn directions.'}
             appLink={'#'}
             appImage={reactMap16x9}
-            appRepo={'https://github.com/ben-baldwin/MapApp'}
+            appRepo={'https://github.com/ben-baldwin/MapboxMapApp'}
             skills={'JavaScript | React | AWS | GitHub | Mapbox'}
           />
         </section>
